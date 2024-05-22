@@ -36,7 +36,7 @@ datos_gua_sal.to_excel(excel_file, index=False)
 
 
 def enviar_correo(archivo_adjunto):
-    remitente = "tucorreo@gmail.com"
+    remitente = "lramirezs12@miumg.edu.gt"
     destinatario = "rendonp@miumg.edu.gt"
     asunto = "Laboratorio 20240522"
     cuerpo = "Por favor, encuentre adjunto el archivo Excel solicitado."
@@ -44,8 +44,8 @@ def enviar_correo(archivo_adjunto):
     
     smtp_server = "smtp.gmail.com"
     smtp_port = 587
-    smtp_usuario = "tucorreo@gmail.com" 
-    smtp_contraseña = "tucontraseña"  
+    smtp_usuario = "lramirezs12@miumg.edu.gt" 
+    smtp_contraseña = "123*admi"  
 
     
     mensaje = MIMEMultipart()
